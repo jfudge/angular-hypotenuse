@@ -1,0 +1,34 @@
+
+    <div class="row justify-content-center align-items-center mt-2">
+        <div class="col-md-6 align-items-center justify-content-center text-center">
+            <div>
+                <div class="bg-light align-items-center justify-content-center text-center p-5">
+                    <form class="col" style="max-width: 500px;">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group sidea">
+                                    <input type="text" id="sidea" name="sidea" class="form-control" [(ngModel)]="sidea">
+                                </div>
+                              </div>
+                              <div class="col">
+                                <app-triangle></app-triangle>
+                                <span *ngIf="showResult" class="hypotenuse" style="left: 75px; top: -200px">{{ result }}</span>
+                                <div class="form-group sideb">
+                                    <input type="text" id="sideb" name="sideb" class="form-control" [(ngModel)]="sideb">
+                                </div>
+                              </div>
+                        </div>
+                        <div class="mt-4">
+                            <button class="btn btn-primary btn-lg btn-block mb-2" 
+                                    (click)="handleCalculate()">Calculate!</button>
+                        </div>
+                        <div class="mt-2">
+                            <button class="btn btn-danger btn-lg btn-block" 
+                                    (click)="handleReset()">Reset</button>
+                        </div>
+                      </form>                                                   
+                </div>
+            </div>
+        </div>
+    </div>
+  

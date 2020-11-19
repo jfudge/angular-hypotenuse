@@ -1,0 +1,51 @@
+.triangle {
+	display: block;
+	width: 0px;
+	height: 0px;
+    margin: 0 auto;
+    border-bottom: 350px solid transparent;
+    border-right: 350px solid transparent;
+    border-bottom-color: grey;
+}
+
+.btn {
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-weight: 700;   
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    transition: color .15s ease-in-out,
+    background-color .15s ease-in-out,
+    border-color .15s ease-in-out,
+    box-shadow .15s ease-in-out;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.hypotenuse {
+    color: green;
+    font-size: 20px;
+    position: relative;
+    left: 150px;
+    top: 65px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.col {
+    display: inline-block;
+ }
+ .sidea {
+    position: relative;
+    top: 25%;
+    width: 50px;
+ }
+ .sideb {
+    position: relative;
+    left: 120px;
+    top: 10px;
+    width:50px;
+ }
+
